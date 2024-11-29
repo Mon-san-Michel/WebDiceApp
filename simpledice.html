@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title>シンプルWebダイス</title>
+	<link rel="stylesheet" type="text/css" href="./simpledice.css">
+</head>
+
+<body>
+	<header>
+		<div id="page_title">
+			<h1 id="page_title_content">シンプルWebダイス</h1>
+		</div>
+
+		<nav id="header_menu">
+			<ul id="header_menu_list">
+				<li class="header_menu_content">
+					<a href="./index.html">Home</a>
+				</li>
+				<li class="header_menu_content">
+					<a href="./simpledice.html">SimpleDice</a>
+				</li>
+			</ul>
+		</nav>
+
+	</header>
+	<main>
+		<div id="input_area">
+			<h3 id="input_form_title">ダイス入力</h3>
+			<div id = "dice">
+				<!--ダイスの個数と面数を指定-->
+				<!--数値以外を指定出来ないようにする-->
+				<input id="dice_num" type="number" min="1" max="100">
+				<span>D</span>
+				<input id="dice_size" type="number" min="1" max="1000">
+                <input id="roll_btn" type="button" value="実行">
+			</div>
+		</div>
+		<div id="output_area">
+			<h3>出目ログ</h3>
+			<div id="output"></div>
+		</div>
+	</main>
+	<script src="./simpledice.js"></script>
+</body>
+
+</html>
