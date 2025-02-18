@@ -61,6 +61,7 @@ input{
     width: 480px;
     padding-left: 16px;
     padding-right: 16px;
+    overflow-y: auto;
 }
 
 #output{
