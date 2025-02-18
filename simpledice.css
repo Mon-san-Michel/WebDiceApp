@@ -25,6 +25,7 @@ body {
     display: flex;
 }
 .header_menu_content{
+    text-decoration: none;
     list-style: none;
     border: 2px solid gray;
     padding-left:16px;
