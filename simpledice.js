@@ -18,5 +18,5 @@ roll_btn.addEventListener('click', () => {
 		roll_total += roll;
     }
 	//今回の結果と時刻を出力に追加
-	output.innerHTML += `<li id = "output"><span id = "output_dice">${dice_num.value}D${dice_size.value}＞${roll_total}</span><div id ="output_num">{${roll_output}}</div><span id="output_time">${timelog}</span></li><hr>`;
+	output.innerHTML += `<div id = "output"><span id = "output_dice">${dice_num.value}D${dice_size.value}＞${roll_total}</span><div id ="output_num">{${roll_output}}</div><span id="output_time">${timelog}</span></div><hr>`;
 });
