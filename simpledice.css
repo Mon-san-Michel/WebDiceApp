@@ -62,7 +62,8 @@ input{
     padding-left: 16px;
     padding-right: 16px;
     max-height: 1280px;
-    overflow-x: auto;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 #output{
